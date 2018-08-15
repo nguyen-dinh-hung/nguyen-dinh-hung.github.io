@@ -1,0 +1,11 @@
+name: Hung Nguyen's Home Page
+url: http://example.org
+description: 
+
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+gems: [jekyll-paginate]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+highlighter: rouge
